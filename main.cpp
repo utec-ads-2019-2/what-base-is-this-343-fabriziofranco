@@ -3,29 +3,11 @@
 using namespace std;
 int MAX_BASE=36;
 
+int get_Value(char c);
+long to_Base(string str, int base);
+int min(string x);
+string findBases(const string& num1, const string& num2);
 
-int get_Value(char c){
-    if (isdigit(c))
-        return int(c) - '0';
-    else
-        return int(c) - 'A' + 10;
-}
-
-
-
-
-long to_Base(string str, int base){
-    int size = str.size(), power = 1, num = 0, i;
-
-    for (i = size-1; i >= 0; i--){
-        if (get_Value(str[i]) >= base){
-            return -1;
-        }
-        num += get_Value(str[i]) * power;
-        power = power * base;
-    }
-    return num;
-}
 
 
 int min(string x){
@@ -72,3 +54,29 @@ int main() {
 
     return 0;
 }
+
+
+
+
+long to_Base(string str, int base){
+    int size = str.size(), power = 1, num = 0, i;
+
+    for (i = size-1; i >= 0; i--){
+        if (get_Value(str[i]) >= base){
+            return -1;
+        }
+        num += get_Value(str[i]) * power;
+        power = power * base;
+    }
+    return num;
+}
+
+
+int get_Value(char c){
+    if (isdigit(c))
+        return int(c) - '0';
+    else
+        return int(c) - 'A' + 10;
+}
+
+
