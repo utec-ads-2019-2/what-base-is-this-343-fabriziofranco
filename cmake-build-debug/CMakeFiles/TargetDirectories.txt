@@ -1,0 +1,3 @@
+/home/fabrizio/Desktop/ADS/what-base-is-this-343-fabriziofranco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fabrizio/Desktop/ADS/what-base-is-this-343-fabriziofranco/cmake-build-debug/CMakeFiles/what_base_is_this_343_fabriziofranco.dir
+/home/fabrizio/Desktop/ADS/what-base-is-this-343-fabriziofranco/cmake-build-debug/CMakeFiles/edit_cache.dir

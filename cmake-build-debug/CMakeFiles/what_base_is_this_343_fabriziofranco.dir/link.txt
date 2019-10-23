@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/what_base_is_this_343_fabriziofranco.dir/main.cpp.o  -o what_base_is_this_343_fabriziofranco 
